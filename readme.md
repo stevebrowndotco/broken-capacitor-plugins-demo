@@ -9,7 +9,7 @@ Demonstrating how to reproduce the "plugin is not implemented on android" behavi
 1. Run npx cap sync
 1. Run ionic cap run android
 1. Observe that the map appears correctly
-1. Then switch branch in this repository to `breaking-branch`
+1. Then switch branch in this repository to `breaking-branch` or view the changes here: https://github.com/stevebrowndotco/broken-capacitor-plugins-demo/pull/1
 1. Run npm install to install the new packages, which is similar to my project
 1. **If the build breaks** Run npx jetifier to fix another issue
 1. Observe that the plugin does not load, and Android Studio Logcat reports "plugin is not implemented on android"
